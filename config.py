@@ -14,6 +14,9 @@ import os
 # Bot Token
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
+# Port for Web Server
+PORT = int(os.environ.get("PORT", "8080"))
+
 # Your API ID & Hash
 API_ID = int(os.environ.get("API_ID", ""))
 API_HASH = os.environ.get("API_HASH", "")
