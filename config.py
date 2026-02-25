@@ -18,21 +18,21 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 PORT = int(os.environ.get("PORT", "8080"))
 
 # Your API ID & Hash
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+API_ID = int(os.environ.get("API_ID", "28578880"))
+API_HASH = os.environ.get("API_HASH", "5f8c87efde57e01d12c0ce98ffdf5928")
 
 # Your Owner / Admin Id For Broadcast 
-ADMINS = int(os.environ.get("ADMINS", "841851780"))
+ADMINS = int(os.environ.get("ADMINS", "6814614245"))
 
 # Your Mongodb Database Url
-DB_URI = os.environ.get("DB_URI", "")
+DB_URI = os.environ.get("DB_URI", "mongodb+srv://suman93:Ss3vpEjyecxM7kPY@cluster0.oq2n3ij.mongodb.net/?appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "SaveRestricted")
 
 # Log Channel to Track New Users 
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001889915480"))
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003759762110"))
 
 # Dump Channel for File Tracking (ADDED)
-DUMP_CHANNEL = int(os.environ.get("DUMP_CHANNEL", "-1002766188813"))
+DUMP_CHANNEL = int(os.environ.get("DUMP_CHANNEL", "-1003759762110"))
 
 # If You Want Error Message In Your Personal Message Then Turn It True Else If You Don't Want Then False
 ERROR_MESSAGE = bool(os.environ.get('ERROR_MESSAGE', True))
