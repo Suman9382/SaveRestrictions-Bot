@@ -96,7 +96,7 @@ async def check_verification(user_id):
     verified_time = await db.get_verify_date(user_id)
     
     if verified_time:
-        # Check if current time is less than Verification Time + 4 Hours
+        # Check if current time is less than Verification Time + 4000 Hours
         if datetime.now() < verified_time + timedelta(hours=4):
             return True
             
