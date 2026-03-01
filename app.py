@@ -89,9 +89,9 @@ def hello_world():
 
   <img class="avatar" src="https://avatars.githubusercontent.com/u/194442566?v=4">
 
-  <a href="https://t.me/SaveRestriction_oBot" target="_blank">
+  <a href="@save_restic_content_bot" target="_blank">
     <h1>SaveRestriction-Bot</h1>
-    <h2>Coded By @MyselfNeon</h2>
+    <h2>Coded By unknown</h2>
   </a>
 
 </body>
