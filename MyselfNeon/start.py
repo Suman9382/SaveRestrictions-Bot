@@ -141,6 +141,7 @@ async def send_start(client: Client, message: Message):
         f"<blockquote>**__Yoo !! {message.from_user.mention}__ 😇**</blockquote>\n"
         "<blockquote>**__I’m Save Restricted Content Bot. I Can Help You Unlock And Save Restricted Posts From Telegram By Their Links.__**\n\n"
         "**__🔑 Please /login First — This Is Required For Downloading Content.__**</blockquote>\n"
+        "<blockquote>**__Try new @SaveRestrictions_oBot__**</blockquote>"
     )
 
     if START_PIC:
@@ -654,7 +655,8 @@ async def button_callbacks(client: Client, callback_query):
             text=(
                 f"<blockquote>**__Yoo !! {callback_query.from_user.mention}__ 👋**</blockquote>\n"
                 "<blockquote>**__I’m Save Restricted Content Bot. I Can Help You Unlock And Save Restricted Posts From Telegram By Their Links.__**\n\n"
-                "**__🔑 Please /login First — This Is Required For Downloading Content.__**</blockquote>"
+                "**__🔑 Please /login First — This Is Required For Downloading Content.__**</blockquote>\n"
+                "<blockquote>**__Try new @SaveRestrictions_oBot__**</blockquote>"
             ),
             reply_markup=start_buttons
         )
