@@ -25,7 +25,7 @@ API_HASH = os.environ.get("API_HASH", "5f8c87efde57e01d12c0ce98ffdf5928")
 ADMINS = int(os.environ.get("ADMINS", "6814614245"))
 
 # Your Mongodb Database Url
-DB_URI = os.environ.get("DB_URI", "mongodb+srv://suman93:Ss3vpEjyecxM7kPY@cluster0.oq2n3ij.mongodb.net/?appName=Cluster0")
+DB_URI = os.environ.get("DB_URL"," ")
 DB_NAME = os.environ.get("DB_NAME", "SaveRestricted")
 
 # Log Channel to Track New Users 
