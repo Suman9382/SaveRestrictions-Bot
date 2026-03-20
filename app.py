@@ -20,7 +20,7 @@ def hello_world():
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>@MyselfNeon</title>
+  <title>@save_restic_content_bot</title>
   <style>
     body {
       background-color: black;
@@ -90,8 +90,8 @@ def hello_world():
   <img class="avatar" src="https://avatars.githubusercontent.com/u/194442566?v=4">
 
   <a href="@save_restic_content_bot" target="_blank">
-    <h1>SaveRestriction-Bot</h1>
-    <h2>Coded By unknown</h2>
+    <h1>Save_Restriction-Bot</h1>
+    <h2>Coded BByunknown</h2>
   </a>
 
 </body>
