@@ -44,7 +44,7 @@ class Bot(Client):
             api_hash=API_HASH,
             bot_token=BOT_TOKEN,
             plugins=dict(root="MyselfNeon"),
-            workers=50,
+            workers=200,
             sleep_threshold=10
         )
         self.keep_alive_task = None
